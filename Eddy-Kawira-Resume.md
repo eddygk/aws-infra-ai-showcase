@@ -1,5 +1,5 @@
 # Eddy Kawira
-eddygk@gmail.com | South Bend, IN
+**Location:** South Bend, IN
 
 ## SUMMARY
 Systems Engineer with 8 years of experience in IT infrastructure, cloud solutions, and enterprise support across manufacturing, healthcare, and legal industries. Specializes in cloud migrations, Active Directory management, and IT operations with expertise in Azure, Microsoft 365, virtualization, and endpoint security. Adept at designing scalable IT environments, enhancing system reliability, and optimizing performance. Seeking a role to leverage expertise in cloud solutions, automation, and infrastructure management.
