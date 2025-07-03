@@ -2,7 +2,7 @@
 
 ## 🖥️ Proxmox Virtualization Infrastructure
 
-### 6-Node High-Availability Cluster
+### 4-Node High-Availability Cluster
 **Scale**: Production environment supporting 100+ VMs and containers
 
 #### Architecture
@@ -10,8 +10,8 @@
 ┌─────────────────────────────────────────────────────┐
 │                 Proxmox Cluster                     │
 ├─────────────┬─────────────┬────────────────────────┤
-│   Node 1-2  │   Node 3-4  │      Node 5-6         │
-│  (Primary)  │ (Secondary) │    (Storage/Backup)    │
+│   Node 0-1  │   Node 2-3  │   Ceph Storage Pool    │
+│  (Primary)  │ (Secondary) │  (Distributed Across)  │
 ├─────────────┴─────────────┴────────────────────────┤
 │            Ceph Distributed Storage                 │
 │              ZFS Mirror Arrays                      │
@@ -34,8 +34,8 @@ pvecm status | grep -E "Quorate|Nodes"
 zfs snapshot -r rpool/data@$(date +%Y%m%d-%H%M%S)
 zfs send -R rpool/data@latest | ssh backup-node zfs recv -F backup/data
 
-# Live migration script
-qm migrate 101 pve-node2 --online --with-local-disks
+# Live migration script between nodes
+qm migrate 101 node2 --online --with-local-disks
 ```
 
 ### LXC Container Orchestration
@@ -183,7 +183,7 @@ module "production_vm" {
   source = "./modules/proxmox-vm"
   
   name        = "app-server-${count.index + 1}"
-  target_node = "pve-node${count.index % 3 + 1}"
+  target_node = "node${count.index % 4}"
   cores       = 4
   memory      = 8192
   
