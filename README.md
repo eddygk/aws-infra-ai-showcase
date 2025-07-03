@@ -15,7 +15,7 @@ In the modern data center, the convergence of infrastructure expertise and AI au
 - **Reactive Monitoring** → Predictive Maintenance
 - **Static Deployments** → Self-Healing Systems
 
-## 🏗️ My AI Leadership Structure
+## 🏢 My AI Leadership Structure
 
 I've developed a unique multi-agent architecture that mirrors enterprise organizational hierarchy:
 
@@ -29,24 +29,37 @@ Eddy Kawira (CEO/Visionary)
 This structure ensures:
 - **Strategic Alignment**: AI agents operate under clear leadership
 - **Safety First**: No autonomous infrastructure changes without approval
-- **Code Excellence**: Claude generates production-ready infrastructure code
+- **Memory Persistence**: Unified memory system across all agents
 - **Clear Accountability**: Each agent has defined roles and limitations
+
+## 🖥️ Production Environment
+
+My AI agents manage real infrastructure:
+
+```
+Proxmox Cluster:
+├── node0
+├── node1  
+├── node2
+├── node3
+└── QDevice (Quorum tie-breaker)
+```
 
 ## 📁 Repository Contents
 
 ### 🚀 [Infrastructure Automation Projects](projects/infra-automation.md)
 Real-world implementations including:
-- 6-node Proxmox HA cluster architecture
+- 4-node Proxmox HA cluster with QDevice management
 - Sophos XG Firewall high-availability configurations
 - Azure Virtual Desktop migrations with autoscaling
 - ZFS storage optimization and LVM provisioning
 - Terraform/Ansible automation frameworks
 
-### 🤖 [AI Agent Architecture & Code Generation](projects/ai-agent-architecture.md)
+### 🤖 [AI Agent Architecture & Integration](projects/ai-agent-architecture.md)
 Enterprise-grade AI agent systems:
 - Hierarchical multi-agent orchestration
-- Claude as primary code generator (Bash, Python, Terraform, Ansible)
-- Natural language to production code pipeline
+- Claude as primary code generator and executor
+- Natural language infrastructure management
 - Unified memory systems (Neo4j, Redis, Basic Memory)
 - Safety-first execution models
 
@@ -61,11 +74,11 @@ Ready-to-use messaging for internal AWS teams
 ### infra-agent-stack
 **[GitHub Repository](https://github.com/eddygk/infra-agent-stack)**
 
-An enterprise-ready AI agent system where natural language becomes production infrastructure code:
-- **Hierarchical Command Structure**: CEO → VP → Code Generation & Execution
+An enterprise-ready AI agent system that transforms natural language into safe infrastructure operations:
+- **Hierarchical Command Structure**: CEO → VP → Implementation agents
 - **Byte (AI Executive Strategist)**: Strategic oversight and safety enforcement
 - **Claude**: Primary code generator and infrastructure executor
-- **GPT-4**: Supporting analysis and planning assistance
+- **GPT-4**: Supporting analyst for planning and validation
 - **Safety by Design**: All operations require explicit approval
 
 ### Redis Memory Central
@@ -88,9 +101,9 @@ Production management system demonstrating full-stack expertise:
 
 ## 🎓 What I Bring to AWS
 
-1. **Deep Infrastructure Knowledge**: From bare metal to cloud, virtualization to containers
-2. **AI Code Generation Expertise**: Claude generates production-ready infrastructure code
-3. **Safety-First Automation**: Everything requires explicit approval, no rogue AI actions
+1. **Deep Infrastructure Knowledge**: From bare metal to cloud, 4-node clusters to enterprise scale
+2. **AI Leadership Experience**: Designing hierarchical AI systems with proper governance
+3. **Code Generation Expertise**: Claude generates production-ready infrastructure code
 4. **Data Center Understanding**: Currently on-site at New Carlisle, familiar with AWS DC operations
 5. **Innovation with Governance**: Pushing boundaries while maintaining enterprise-grade safety
 
@@ -98,13 +111,13 @@ Production management system demonstrating full-stack expertise:
 
 If you're working on:
 - Internal AWS automation initiatives
-- AI code generation for infrastructure
+- AI governance and safety frameworks
 - Multi-agent orchestration systems
-- Natural language to IaC pipelines
+- Infrastructure code generation with AI
 - Self-healing infrastructure with approval chains
 
-**Let's connect!** I'm eager to contribute my unique blend of hands-on data center experience and AI-powered code generation expertise to AWS's next generation of infrastructure.
+**Let's connect!** I'm eager to contribute my unique blend of hands-on data center experience and enterprise AI governance expertise to AWS's next generation of infrastructure.
 
 ---
 
-*"The future of infrastructure isn't just automated—it's intelligently coded. Let's build it together."*
+*"The future of infrastructure isn't just automated—it's intelligently governed with AI that writes the code. Let's build it together."*
