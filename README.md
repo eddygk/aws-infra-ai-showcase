@@ -21,15 +21,15 @@ I've developed a unique multi-agent architecture that mirrors enterprise organiz
 
 ```
 Eddy Kawira (CEO/Visionary)
-  └── Byte (VP of Operations / AI Chief of Staff)
-         ├── Claude (Infrastructure Implementor & Orchestrator)
-         └── GPT-4 (Code Generator)
+  └── Byte (VP of Operations / AI Executive Strategist)
+         ├── Claude (Code Generator & Infrastructure Executor)
+         └── GPT-4 (Supporting Analyst / Planning Assistant)
 ```
 
 This structure ensures:
 - **Strategic Alignment**: AI agents operate under clear leadership
 - **Safety First**: No autonomous infrastructure changes without approval
-- **Memory Persistence**: Unified memory system across all agents
+- **Code Excellence**: Claude generates production-ready infrastructure code
 - **Clear Accountability**: Each agent has defined roles and limitations
 
 ## 📁 Repository Contents
@@ -42,10 +42,11 @@ Real-world implementations including:
 - ZFS storage optimization and LVM provisioning
 - Terraform/Ansible automation frameworks
 
-### 🤖 [AI Agent Architecture & Integration](projects/ai-agent-architecture.md)
+### 🤖 [AI Agent Architecture & Code Generation](projects/ai-agent-architecture.md)
 Enterprise-grade AI agent systems:
 - Hierarchical multi-agent orchestration
-- Natural language infrastructure management
+- Claude as primary code generator (Bash, Python, Terraform, Ansible)
+- Natural language to production code pipeline
 - Unified memory systems (Neo4j, Redis, Basic Memory)
 - Safety-first execution models
 
@@ -60,11 +61,11 @@ Ready-to-use messaging for internal AWS teams
 ### infra-agent-stack
 **[GitHub Repository](https://github.com/eddygk/infra-agent-stack)**
 
-An enterprise-ready AI agent system that transforms natural language into safe infrastructure operations:
-- **Hierarchical Command Structure**: CEO → VP → Implementation agents
-- **Byte (AI Chief of Staff)**: Strategic oversight and safety enforcement
-- **Claude**: Infrastructure implementation under explicit direction
-- **GPT-4**: Code generation on demand
+An enterprise-ready AI agent system where natural language becomes production infrastructure code:
+- **Hierarchical Command Structure**: CEO → VP → Code Generation & Execution
+- **Byte (AI Executive Strategist)**: Strategic oversight and safety enforcement
+- **Claude**: Primary code generator and infrastructure executor
+- **GPT-4**: Supporting analysis and planning assistance
 - **Safety by Design**: All operations require explicit approval
 
 ### Redis Memory Central
@@ -88,7 +89,7 @@ Production management system demonstrating full-stack expertise:
 ## 🎓 What I Bring to AWS
 
 1. **Deep Infrastructure Knowledge**: From bare metal to cloud, virtualization to containers
-2. **AI Leadership Experience**: Designing hierarchical AI systems that mirror enterprise structures
+2. **AI Code Generation Expertise**: Claude generates production-ready infrastructure code
 3. **Safety-First Automation**: Everything requires explicit approval, no rogue AI actions
 4. **Data Center Understanding**: Currently on-site at New Carlisle, familiar with AWS DC operations
 5. **Innovation with Governance**: Pushing boundaries while maintaining enterprise-grade safety
@@ -97,13 +98,13 @@ Production management system demonstrating full-stack expertise:
 
 If you're working on:
 - Internal AWS automation initiatives
-- AI governance and safety frameworks
+- AI code generation for infrastructure
 - Multi-agent orchestration systems
-- Predictive maintenance with human oversight
+- Natural language to IaC pipelines
 - Self-healing infrastructure with approval chains
 
-**Let's connect!** I'm eager to contribute my unique blend of hands-on data center experience and enterprise AI governance expertise to AWS's next generation of infrastructure.
+**Let's connect!** I'm eager to contribute my unique blend of hands-on data center experience and AI-powered code generation expertise to AWS's next generation of infrastructure.
 
 ---
 
-*"The future of infrastructure isn't just automated—it's intelligently governed. Let's build it together."*
+*"The future of infrastructure isn't just automated—it's intelligently coded. Let's build it together."*
