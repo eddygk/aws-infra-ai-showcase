@@ -63,7 +63,7 @@ Enterprise-grade AI agent systems:
 - Unified memory systems (Neo4j, Redis, Basic Memory)
 - Safety-first execution models
 
-### 📄 [Resume](Eddy-Kawira-Resume.pdf)
+### 📄 [Resume](Eddy-Kawira-Resume.md)
 Full professional background and certifications
 
 ### 💡 [AWS Internal Pitch Template](aws-internal-pitch.md)
